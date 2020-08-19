@@ -7,12 +7,25 @@
 //
 
 #import "YGAppDelegate.h"
-
+#import <YGLinkList/YGLinkList.h>
 @implementation YGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    YGLinkList *list = [[YGLinkList alloc] init];
+     [list insertData:@1];
+     [list insertData:@2];
+     [list insertData:@3];
+     [list insertData:@4];
+     
+
+     [list insertData:@5 circleIndex:2];
+     
+     id data =  [list getCircleBeginData];
+     
+     NSLog(@"data = %@",data);
+    
     return YES;
 }
 

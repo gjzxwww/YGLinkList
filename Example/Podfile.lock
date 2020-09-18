@@ -1,0 +1,16 @@
+PODS:
+  - YGLinkList (0.1.0)
+
+DEPENDENCIES:
+  - YGLinkList (from `../`)
+
+EXTERNAL SOURCES:
+  YGLinkList:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YGLinkList: 98702f19d9af4b3a5a1f463ed25ef73787812b3b
+
+PODFILE CHECKSUM: 78c7df33014002f011b23f9e4843fc1710bc07b5
+
+COCOAPODS: 1.8.4
